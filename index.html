@@ -34,7 +34,7 @@
       // Connect to the database.
       var myDataRef = new Firebase('https://vocuujcuwai.firebaseio-demo.com/');
       // Anonymous Authentication.
-      ref.authAnonymously(function(error, authData) {
+      myDataRef.authAnonymously(function(error, authData) {
         if (error) {
           console.log("Login Failed!", error);
         } else {
